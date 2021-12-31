@@ -1,0 +1,60 @@
+.meme {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.meme>img {
+    width: 80%;
+}
+
+.meme>h2 {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000, ;
+}
+
+.meme>.bottom {
+    bottom: 0;
+}
+
+.meme>.top {
+    top: 0;
+}
+
+.meme-form {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meme-form>input {
+    width: 45%;
+    height: 48px;
+}
+
+.meme-form>button {
+    border: none;
+    font-family: monospace;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #6441A5;
+}
+
+.meme-form>input::-webkit-input-placeholder {
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+}
+
+header>p {
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 60px;
+}
