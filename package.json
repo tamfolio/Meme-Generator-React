@@ -2,8 +2,8 @@
   "name": "meme-generator",
   "version": "0.0.0",
   "scripts": {
-    "dev": "node api.js && vite",
-    "build": "node api.js && vite build",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
